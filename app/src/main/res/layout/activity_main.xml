@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vv.abd_ur_rehmanatif.gson.MainActivity"
+    android:id="@+id/MainActivityFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search!"
+        android:textSize="50dp"
+        android:layout_marginTop="74dp"
+        android:id="@+id/SearchTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/GetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Find By Name.."
+        android:layout_below="@+id/SearchTextView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FindButton"
+
+
+        android:layout_marginTop="23dp"
+        android:textSize="25dp"
+        android:text="      Find      "
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+
+        android:layout_below="@+id/GetText"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayoutOne"
+        ></RelativeLayout>
+
+
+</RelativeLayout>

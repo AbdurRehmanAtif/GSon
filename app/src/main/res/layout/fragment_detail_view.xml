@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailView"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:text="Id:" />
+
+    <TextView
+        android:id="@+id/FirstName"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Name:"
+        android:layout_below="@+id/id"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/id" />
+
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="UserName:"
+        android:textAlignment="center"
+        android:layout_below="@+id/PhoneNumber"
+        android:layout_alignStart="@+id/PhoneNumber"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Password:"
+        android:textAlignment="center"
+        android:layout_below="@+id/FirstName"
+        android:layout_alignStart="@+id/FirstName" />
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Gender:"
+        android:layout_below="@+id/Password"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Address:"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/Gender"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/Gender"
+        android:id="@+id/Address" />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="14dp"
+        android:text="PhoneNumber:"
+        android:layout_below="@+id/Address"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/Address" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textSize="40dp"
+        android:text="DetailView" />
+
+</RelativeLayout>
